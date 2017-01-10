@@ -17,7 +17,7 @@ import org.testng.annotations.AfterClass;
 
 
 
-public class LoginForQQ {
+public class LoginForQQinAndroidpad {
     private AndroidDriver  driver;
 	String qqnum = "";
 	String qqpwd = "";
