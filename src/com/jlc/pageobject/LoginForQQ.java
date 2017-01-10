@@ -19,8 +19,8 @@ import org.testng.annotations.AfterClass;
 
 public class LoginForQQ {
     private AndroidDriver  driver;
-	String qqnum = "23508712";
-	String qqpwd = "shenjie1012";
+	String qqnum = "";
+	String qqpwd = "";
 	LoginPageOperation loginPageOperation = new LoginPageOperation();
 	
 	
@@ -33,7 +33,6 @@ public class LoginForQQ {
       capabilities.setCapability("platformName", "Android");
       capabilities.setCapability("deviceName","Android Emulator");
       capabilities.setCapability("platformVersion", "4.4");
- //     capabilities.setCapability("automationName", "Selendroid");
       capabilities.setCapability("appPackage", "ctrip.android.view");
       capabilities.setCapability("appActivity", ".splash.CtripSplashActivity");
       driver = new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
