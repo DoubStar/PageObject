@@ -17,6 +17,9 @@ public class ReadProperties {
 			String Password = prop.getProperty("Password");
 			System.out.println("loginname:"+loginname+"---"+"Password:"+Password);
 			
+			
+			
+			
 		} catch (Exception e) {
 			// TODO: handle exception
 			
